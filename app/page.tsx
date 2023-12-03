@@ -1,6 +1,3 @@
-
 export default function Home() {
-  return (
-   <main>Ecommerce app</main>
-  )
+  return <div>Ecommerce app</div>;
 }
