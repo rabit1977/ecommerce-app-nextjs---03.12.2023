@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <footer className='bg-slate-700 text-slate-200 text-sm mt-16'>
       <Container>
-        <div className='flex flex-col md:flex-row justify-between pt-16 pb-8'>
+        <div className='flex flex-col md:flex-row justify-between pt-16 pb-8 max-w-5xl mx-auto'>
           <FooterList>
             <h3 className='text-base font-semibold mb-2'>Categories</h3>
             <Link href='#'>Phones</Link>
@@ -29,16 +29,16 @@ const Footer = () => {
             <Link href='#'>Returns & Exchanges</Link>
             <Link href='#'>FAQs</Link>
           </FooterList>
-          <div className='w-full md:w-1/3 mb-6 md:mb-0'>
+          <FooterList>
             <h3 className='text-base font-semibold mb-2'>About Us</h3>
             <p className='mb-2'>
               Our store company is dedicated to provide you with the latest and
               greatest devices and accesories to our customers, where you can
               find the widest selection of digital Electronics.
             </p>
-          </div>
+          </FooterList>
         </div>
-        <div className='flex items-center max-w-xl mx-auto justify-between whitespace-nowrap'>
+        <div className='flex items-center max-w-3xl mx-auto justify-between whitespace-nowrap'>
           <div>
             <p className='text-sm mb-6'>
               {' '}
